@@ -1,0 +1,30 @@
+{
+    "step-types": {
+        "script-module-step": [
+            {
+               "@type-id": "custom.exportProductId",
+                "@supports-site-context": true,
+                "@supports-organization-context": false,
+                "module": "App_Store_Product_Id/cartridge/scripts/jobs/exportProduct",
+                "function": "execute",
+                "parameters": {},
+                "status-codes": {
+                    "status": [
+                        {
+                            "@code": "ERROR",
+                            "description": "Used when an error occurred."
+                        },
+                        {
+                            "@code": "OK",
+                            "description": "Used when everything went well."
+                        },
+                        {
+                            "@code": "WARN",
+                            "description": "Used when small, but acceptable problems occurred."
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
