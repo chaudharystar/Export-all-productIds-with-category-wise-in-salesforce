@@ -17,16 +17,17 @@ The latest version of SFRA is 6.0.0
  Example:
  ```
  {
-  "root": {
-           "mens":{
-                   "clothing":{
-                               "suits":{
-                                        "products":[ "25686364M",
-                                                     "25686571M"
-                                                    ]
-                                        }
-                               }
-                    }
-           }
-  }
+   "root":{
+      "mens":{
+         "clothing":{
+            "suits":{
+               "products":[
+                  "25686364M",
+                  "25686571M"
+               ]
+            }
+         }
+      }
+   }
+}
  ```
